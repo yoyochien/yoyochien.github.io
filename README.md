@@ -10,5 +10,5 @@ _我是斜體_
 
 **我是粗體**
 __我是粗體__
-[首頁]https://github.com/yoyochien/yoyochien.github.io
+[首頁]https://yoyochien.github.io/
 ~~刪除縣~~
