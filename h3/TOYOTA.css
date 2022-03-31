@@ -1,0 +1,382 @@
+.fun-box {
+  width: 350px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: #000;
+  color: azure;
+  z-index: 1;
+}
+
+.fun-box h2 {
+  height: 130px;
+  background-color: red;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fun-box h2 span {
+  vertical-align: middle;
+  font-size: 120px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  padding: 10px 10px 10px 0px;
+}
+
+.fun-box h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.fun-box p {
+  margin: 10px 10px 70px 10px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+.youtube {
+  width: 700px;
+  position: relative;
+  margin: auto;
+  margin: 230px;
+}
+
+.youtube a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.fun-background {
+  width: 440px;
+  height: 290px;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 150px;
+  right: 500px;
+  z-index: -1;
+}
+
+.fun-innovation {
+  width: 690px;
+  background-color: #eeeeee;
+  position: relative;
+  bottom: 250px;
+  left: 130px;
+  padding: 15px;
+}
+
+.fun-innovation h2 {
+  font-size: 19px;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.fun-innovation ul {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.fun-innovation span {
+  background-color: #000;
+  color: azure;
+}
+
+.safe-box {
+  width: 350px;
+  position: absolute;
+  top: 1250px;
+  left: 800px;
+  background-color: #000;
+  color: azure;
+  z-index: 1;
+}
+
+.safe-box h2 {
+  height: 130px;
+  background-color: red;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+}
+
+.safe-box h2 span {
+  vertical-align: middle;
+  font-size: 120px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  padding: 10px 10px 10px 0px;
+}
+
+.safe-box h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.safe-box p {
+  margin: 10px 10px 70px 10px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+.safe-background {
+  width: 440px;
+  height: 410px;
+  background-color: #cccccc;
+  position: absolute;
+  top: 1300px;
+  right: 500px;
+  z-index: -1;
+}
+
+.safe-innovation {
+  width: 690px;
+  background-color: #eeeeee;
+  position: relative;
+  bottom: 250px;
+  left: 520px;
+  padding: 15px;
+}
+
+.safe-innovation h2 {
+  font-size: 19px;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.safe-innovation ul {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.safe-innovation span {
+  background-color: #000;
+  color: azure;
+}
+
+.comfortable-box {
+  width: 350px;
+  position: absolute;
+  top: 2294px;
+  left: 100px;
+  background-color: #000;
+  color: azure;
+  z-index: 1;
+}
+
+.comfortable-box h2 {
+  height: 130px;
+  background-color: red;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+}
+
+.comfortable-box h2 span {
+  vertical-align: middle;
+  font-size: 120px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  padding: 10px 10px 10px 0px;
+}
+
+.comfortable-box h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.comfortable-box p {
+  margin: 10px 10px 70px 10px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+.comfortable-background {
+  width: 440px;
+  height: 290px;
+  background-color: #cccccc;
+  position: absolute;
+  top: 2300px;
+  right: 500px;
+  z-index: -1;
+}
+
+.comfortable-innovation {
+  width: 690px;
+  background-color: #eeeeee;
+  position: relative;
+  bottom: 250px;
+  left: 130px;
+  padding: 15px;
+}
+
+.comfortable-innovation h2 {
+  font-size: 19px;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.comfortable-innovation ul {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.comfortable-innovation span {
+  background-color: #000;
+  color: azure;
+}
+
+.people-box {
+  width: 350px;
+  position: absolute;
+  top: 3443px;
+  left: 800px;
+  background-color: #000;
+  color: azure;
+  z-index: 1;
+}
+
+.people-box h2 {
+  height: 130px;
+  background-color: red;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+}
+
+.people-box h2 span {
+  vertical-align: middle;
+  font-size: 120px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  padding: 10px 10px 10px 0px;
+}
+
+.people-box h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.people-box p {
+  margin: 10px 10px 70px 10px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+.people-background {
+  width: 440px;
+  height: 410px;
+  background-color: #cccccc;
+  position: absolute;
+  top: 1300px;
+  right: 500px;
+  z-index: -1;
+}
+
+.people-innovation {
+  width: 690px;
+  background-color: #eeeeee;
+  position: relative;
+  bottom: 250px;
+  left: 520px;
+  padding: 15px;
+}
+
+.people-innovation h2 {
+  font-size: 19px;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.people-innovation ul {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.people-innovation span {
+  background-color: #000;
+  color: azure;
+}
+
+.pride-box {
+  width: 350px;
+  position: absolute;
+  top: 4514px;
+  left: 100px;
+  background-color: #000;
+  color: azure;
+  z-index: 1;
+}
+
+.pride-box h2 {
+  height: 130px;
+  background-color: red;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+}
+
+.pride-box h2 span {
+  vertical-align: middle;
+  font-size: 120px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  padding: 10px 10px 10px 0px;
+}
+
+.pride-box h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.pride-box p {
+  margin: 10px 10px 70px 10px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+.pride-background {
+  width: 440px;
+  height: 290px;
+  background-color: #cccccc;
+  position: absolute;
+  top: 2300px;
+  right: 500px;
+  z-index: -1;
+}
+
+.pride-innovation {
+  width: 690px;
+  background-color: #eeeeee;
+  position: relative;
+  bottom: 250px;
+  left: 130px;
+  padding: 15px;
+}
+
+.pride-innovation h2 {
+  font-size: 19px;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.pride-innovation ul {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.pride-innovation span {
+  background-color: #000;
+  color: azure;
+}
+/*# sourceMappingURL=TOYOTA.css.map */
