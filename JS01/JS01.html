@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<head>
+    <style>
+        .Self-introduction{
+            width: 1000px;
+            height: 1400px;
+            margin: auto;
+            border: 10px solid red;
+        }
+        .Self-introduction img{
+            height: 600px;
+
+            margin-left: 300px;
+        }
+        .name{
+            width: 1000px;
+            display: flex;
+            padding: 10px;
+            margin-top: 50px;
+        }
+        h2{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .span{
+            margin-top: 6px;
+            margin-left: -5px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .email{
+            width: 1000px;
+            display: flex;
+            padding: 10px;
+        }
+
+        .school{
+            width: 1000px;
+            display: flex;
+            padding: 10px;
+        }
+
+        .Interest{
+            width: 1000px;
+            display: flex;
+            padding: 10px;
+        }
+        .picturestyle{
+            width: 200px; 
+            position: relative;
+            border: 1px solid black;
+            top:-500px;
+            right:-440px;
+            margin:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Self-introduction">
+        <img src="https://raw.githubusercontent.com/yoyochien/yoyochien.github.io/main/277595780_806856126864531_5273197863753125123_n.jpg" alt="" height="200" width="400">
+            <div class="null"></div>
+        <div class="name">
+            <h2>姓名：</h2>
+                <div class="span">
+                    <span>簡佑丞</span>
+                </div>
+        </div>
+        <div class="email">
+            <h2>電子信箱：</h2>
+                <div class="span">
+                    <span>dean.chien1@gmail.com</span>
+                </div>
+        </div>
+        <div class="school">
+            <h2>學校：</h2>
+            <div class="span">
+                <span>中華大學</span>
+            </div>
+        </div>
+        <div class="Interest">
+            <h2>興趣：</h2>
+            <div class="span">
+                <span>火舞</span>
+                <span>、</span>
+                <span>古風</span>
+                <span>、</span>
+                <span>手沖咖啡</span>
+            </div>
+        </div>
+    </div>
+
+
+            
+        <div class="pic">
+            <h1></h1>
+            <img id="image1" src="" alt="">
+            <script>
+                let h1 =document.querySelector("h1");
+                let img =document.getElementById("image1");
+        
+                let moviename="";
+                const movieUrl="";
+        
+                h1.innerText = moviename;
+                
+        
+                img.setAttribute("src",movieUrl); //movirUrl是圖片網址
+                img.setAttribute("alt","");
+                img.setAttribute("class","picturestyle");
+                document.write("<br>");
+        
+                const imageArrary=[
+                "https://yoyochien.github.io/277845826_1007612599855749_3664270661206069944_n%20-%20%E8%A4%87%E8%A3%BD01.jpg",
+                "https://raw.githubusercontent.com/yoyochien/yoyochien.github.io/main/277234711_653700375721523_8709096231056092787_n.jpg",
+                "https://raw.githubusercontent.com/yoyochien/yoyochien.github.io/main/277569795_669767430963817_1969294793711266599_n.jpg"
+                ];
+
+                imageArrary.forEach((url, index)=>{
+                    document.write(`<img class="picturestyle" src="${url}">`);
+        
+                })
+                
+            </script>
+        </div>
+</body>
+</html>
