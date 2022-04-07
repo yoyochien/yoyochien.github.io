@@ -1,0 +1,140 @@
+header {
+  padding: 10px 20px;
+  background-color: #aaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+header #menu-control {
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+header head .logo .src {
+  width: 50px;
+  height: 50px;
+  vertical-align: top;
+  border: 10px soild red;
+}
+
+header head .main-menu {
+  position: absolute;
+  width: 100%;
+  background-color: burlywood;
+  left: 0;
+  top: 100%;
+  display: none;
+}
+
+header head .main-menu a {
+  display: block;
+  padding: 10px 20px;
+}
+
+header head .main-menu #menu-control:checked ~ .head .main-menu {
+  display: block;
+}
+
+header head .hb {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  top: 10px;
+  right: 40px;
+}
+
+.slideshowr {
+  background-color: #00142D;
+  width: 100%;
+  margin: auto;
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+}
+
+.slideshowr .right img {
+  width: 100%;
+}
+
+.slideshowr .left {
+  width: 700px;
+  height: 440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slideshowr .left h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.slideshowr .left .color {
+  color: #00C66A;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.slideshowr .left p {
+  color: white;
+  font-size: 15px;
+  margin: 40px 0px;
+}
+
+.slideshowr .left input {
+  width: 100%;
+  background: none;
+  border-width: 0 0 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slideshowr .left input .free {
+  background-color: blue;
+  padding: 0px 10px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=shopline-rwd.css.map */
