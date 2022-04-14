@@ -110,24 +110,26 @@
         margin-left: -500px;
         margin-top: 100px;
     }
-    .last{
-        .wrap{
-            margin-top: -50px;
-            margin-left: -380px;
-            .items{
-                flex-direction: row;
-                
-                a{
-                    margin-right: 40px;
+    .information{
+        .last{
+            .wrap{
+                margin-top: -50px;
+                margin-left: -380px;
+                .items{
+                    flex-direction: row;
+                    
+                    a{
+                        margin-right: 40px;
+                    }
                 }
             }
+            .icon-group{
+                align-items: flex-start;
+            }
+            p{
+                margin-left: -430px;
+            }
+            
         }
-        .icon-group{
-            align-items: flex-start;
-        }
-        p{
-            margin-left: -430px;
-        }
-        
     }
 }

@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=shopline-rwd-992.css.map */
+@media screen and (min-width: 992px) {
+  .slideshowr .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .slideshowr .row .txt-part h1 {
+    font-size: 35px;
+  }
+  .slideshowr .row .txt-part p {
+    font-size: 15px;
+    line-height: 2em;
+  }
+  .slideshowr .row .txt-part .input {
+    width: 500px;
+    display: block;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .slideshowr .row .txt-part .input .free {
+    width: 500px;
+    display: block;
+    margin-left: -10px;
+    text-align: center;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .row .pic-part {
+    width: 100%;
+    margin-left: -100px;
+  }
+  .row .txt-part {
+    padding-right: 100px;
+  }
+  .row .txt-part h2 {
+    font-size: 30px;
+  }
+  .row .txt-part p {
+    width: 550px;
+  }
+  .row .txt-part .list {
+    width: 500px;
+  }
+  .row .txt-part .list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .row .txt-part .list ul li {
+    width: 250px;
+  }
+  .row:nth-child(odd) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=shopline-rwd-992.css.map */

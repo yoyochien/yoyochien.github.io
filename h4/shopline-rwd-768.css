@@ -104,25 +104,25 @@
     margin-left: -500px;
     margin-top: 100px;
   }
-  .last .wrap {
+  .information .last .wrap {
     margin-top: -50px;
     margin-left: -380px;
   }
-  .last .wrap .items {
+  .information .last .wrap .items {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .last .wrap .items a {
+  .information .last .wrap .items a {
     margin-right: 40px;
   }
-  .last .icon-group {
+  .information .last .icon-group {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .last p {
+  .information .last p {
     margin-left: -430px;
   }
 }
