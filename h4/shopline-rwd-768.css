@@ -1,1 +1,129 @@
-/* No CSS *//*# sourceMappingURL=shopline-rwd-768.css.map */
+@media screen and (min-width: 768px) {
+  .slideshowr .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .slideshowr .row .pic-part {
+    width: 100%;
+  }
+  .slideshowr .row .txt-part {
+    margin-top: 50px;
+    text-align: left;
+  }
+  .slideshowr .row .txt-part h1 {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+  .slideshowr .row .txt-part p {
+    font-size: 25px;
+    padding: 40px 20px;
+  }
+  .slideshowr .row .txt-part .input {
+    width: 500px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 20px;
+  }
+  .slideshowr .row .txt-part .input .free {
+    width: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .txt-middle {
+    margin-bottom: 100px;
+  }
+  .txt-middle h2 {
+    font-size: 35px;
+  }
+  .txt-middle p {
+    font-size: 20px;
+    width: 730px;
+  }
+  .row {
+    margin-bottom: 150px;
+  }
+  .row .txt-part h2 {
+    font-size: 40px;
+  }
+  .row .txt-part p {
+    font-size: 20px;
+  }
+  .row .txt-part .list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .row .txt-part .list ul li {
+    width: 300px;
+  }
+  .more .box .content {
+    width: calc(100% / 3);
+    padding: 15px 25px;
+  }
+  .brand {
+    text-align: center;
+  }
+  .brand-txt .txt-part {
+    margin: 50px 0px;
+  }
+  .brand-txt .txt-part a {
+    text-decoration: none;
+  }
+  .brand-txt .txt-part P {
+    font-size: 20px;
+  }
+  .asia {
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 400px;
+    background-position: bottom -80px left 300px;
+  }
+  .asia .asia-box {
+    margin-left: -150px;
+    font-weight: bold;
+  }
+  .asia .asia-box p {
+    width: 55%;
+  }
+  .asia .asia-box a {
+    width: 50%;
+    position: relative;
+    left: -160px;
+  }
+  .covid {
+    padding-bottom: 30px;
+    margin-left: -500px;
+    margin-top: 100px;
+  }
+  .last .wrap {
+    margin-top: -50px;
+    margin-left: -380px;
+  }
+  .last .wrap .items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .last .wrap .items a {
+    margin-right: 40px;
+  }
+  .last .icon-group {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .last p {
+    margin-left: -430px;
+  }
+}
+/*# sourceMappingURL=shopline-rwd-768.css.map */

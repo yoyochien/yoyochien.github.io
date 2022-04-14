@@ -1,3 +1,133 @@
 @media screen and (min-width:768px) {
-    
+    .slideshowr{
+        .row{
+            display: flex;
+            flex-direction: column-reverse;
+            .pic-part{
+                width: 100%;
+            }
+            .txt-part{
+                margin-top: 50px;
+                text-align: left;
+                h1{
+                    font-size: 40px;
+                    padding-left: 20px;
+                }
+                p{
+                    font-size: 25px;
+                    padding: 40px 20px;
+                }
+                .input{
+                    width: 500px;
+                    display: inline-flex;
+                    margin-left: 20px;
+                    .free{
+                        width: 200px;
+                        display: inline-block;
+                        margin-left: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    .txt-middle{
+        margin-bottom: 100px;
+        h2{
+            font-size: 35px;
+        }
+        p{
+            font-size: 20px;
+            width: 730px;
+        }
+    }
+    .row{
+        margin-bottom: 150px;
+        .txt-part{
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+            }
+            .list{
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    li{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+    .more{
+        .box{
+            .content{
+                width: calc(100% / 3);
+                padding:15px 25px;
+            }
+        }
+        
+    }
+    .brand{
+        text-align: center;
+    }
+    .brand-txt{
+        .txt-part{
+            margin: 50px 0px;
+            a{
+                text-decoration: none;
+            }
+            P{
+                font-size: 20px;
+            }
+
+        }
+    }
+    .asia{
+        padding-top: 50px;
+        padding-left: 20px;
+        height: 400px;
+        background-position: bottom -80px left 300px;
+        .asia-box{
+            margin-left:-150px;
+            font-weight: bold;
+            p{
+                width: 55%;
+            }
+            a{
+                width: 50%;
+                position: relative;
+                left: -160px;
+            }
+        }
+    }
+    .covid{
+        padding-bottom: 30px;
+        margin-left: -500px;
+        margin-top: 100px;
+    }
+    .last{
+        .wrap{
+            margin-top: -50px;
+            margin-left: -380px;
+            .items{
+                flex-direction: row;
+                
+                a{
+                    margin-right: 40px;
+                }
+            }
+        }
+        .icon-group{
+            align-items: flex-start;
+        }
+        p{
+            margin-left: -430px;
+        }
+        
+    }
 }
